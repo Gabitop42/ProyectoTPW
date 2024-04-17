@@ -12,3 +12,71 @@ nav ul li{
     text-transform: uppercase;
     font-size: 15px;
 }
+
+
+
+/**Cambair formato de titulos encabezados**/
+.titulos {
+    text-align: center;
+    font-weight: 700;
+
+}
+
+
+
+
+/**Seccion Nosotros**/
+.caja{
+    display: flex;
+}
+.caja > div{
+    width: 50%;
+    padding: 10%;
+}
+
+@media(max-widht:768px){
+    .caja{
+        display: block;
+    }
+    .caja > div{
+        width: 90%;
+        padding: 10%;
+    }
+}
+/**Seccion Contenedor Nosotros**/
+.encabezado{
+    font-weight: 300;
+    text-align: center;
+}
+
+.iconos-nosotros{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.iconos{
+    flex-basis: calc(33.33% - 1rem);
+    text-align: center;
+
+}
+
+.mayusculas{
+    text-transform: capitalize;
+
+}
+
+/**Seccion de Objetivos Nosotros**/
+.objetivo-nosotros{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.objetivos{
+    flex-basis: calc(33.33% - 1rem);
+    text-align: center;
+
+}
+
+
