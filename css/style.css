@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 nav{
     background-color: aquamarine;
 }
@@ -22,7 +27,16 @@ nav ul li{
 
 }
 
-
+section div{
+    display: inline-block;
+    padding: 0 10px 20px 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    width: 500px;
+    background-color: #3DBBD4;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
 
 
 /**Seccion Nosotros**/
@@ -79,4 +93,12 @@ nav ul li{
 
 }
 
-
+footer{
+    margin-top: 200px;
+    background-color: #2A707E;
+    color: #fff; /* Color del texto */
+    padding: 20px 0; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    width: 100%; /* Ancho completo */
+    bottom: 0; /* Fijar en la parte inferior */
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="../css/style.css">
+    <title>Rampal contadores</title>
+</head>
+<body>
+        <header>
+        <h1>Rampal</h1>
+        <nav>
+            <ul>
+                <li><a href="../Inicio/index.html">Inicio</a></li>
+                <li><a href="../Nosotros/index.html">Nosotros</a></li>
+                <li><a href="../Servicios/index.html">Servicios</a></li>
+                <li><a href="../Contacto/index.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+            <form class="form" name="formcontacto"  action="" method="post">
+                  <fieldset>
+                        <legend>Formularios de registro de clientes</legend>
+                        <p>
+
+                        <label  for="nombre">Ingresa tu nombre:</label>
+                        <input type="text" name="nombre" placeholder="Tu nombre" required>
+
+                  </p>
+                  <p>
+                        <label  for="apellido">Ingresa tu apellido:</label>
+                        <input type="text" name="apellidos" placeholder="Tu apellido" required>
+                  </p>
+
+                  <p>
+                        <label  for="pass">Ingresa tu contraseña:</label>
+                        <input type="password" name="pass" placeholder="password" required minlength="6">
+                  </p>
+
+                  <p>
+                        <label  for="edad">Ingresa tu edad:</label>
+                        <input type="edad" name="edad" placeholder="edad" required pattern="[0-2]{99}" >
+                  </p>
+
+                  <p>
+                        <label  for="tele">Ingresa tu telefono:</label>
+                        <input type="tel" name="tele" placeholder="Tu telefono" required pattern="[0-8]{9}">
+                  </p>
+
+                  <p>
+                        <label  for="correo">Ingresa tu correo:</label>
+                        <input type="email" name="correo" placeholder="Tu email" required >
+                  </p>
+                  </fieldset>
+ 
+                  <fieldset>
+                        <p>
+                              <label  for="Plan">Elige tu plan:</label>
+                              <input type="radio" name="Plan" value="1">
+                              <label  for="PLAN 1">PLAN 1</label>
+                              <input type="radio" name="Plan" value="2">
+                              <label  for="PLAN 2">PLAN 2</label>
+                              <input type="radio" name="Plan" value="3">
+                              <label  for="PLAN 3">PLAN 3</label>
+                        </p>
+                        
+                  </fieldset>
+
+                  <p>
+                        <input type="submit" name="botonenvio" value="Enviar">
+                        <input type="reset" name="botonreinicio" value="Reiniciar">
+                  </p>
+                  
+            </form>
+            <footer>
+        <p>Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
