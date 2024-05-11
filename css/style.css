@@ -102,3 +102,7 @@ footer{
     width: 100%; /* Ancho completo */
     bottom: 0; /* Fijar en la parte inferior */
 }
+
+form{
+    padding: 10px;
+}
